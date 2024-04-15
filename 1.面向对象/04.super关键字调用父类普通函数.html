@@ -14,6 +14,7 @@
 </html>
 <script>
     //super 关键字调用父类普通方法
+        // 若父类和子类含有相同的函数，则会应用就近原则，优先调用子类的函数（类似于java重写）
     class Father {
         constructor() {
 
@@ -31,5 +32,5 @@
     var son = new Son()
     son.say()
 
-    // 若父类和子类含有相同的函数，则会应用就近原则，优先调用子类的函数
+
 </script>
