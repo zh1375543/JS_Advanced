@@ -19,8 +19,8 @@
         var wf = new Star('王菲')
         console.log(adele);
         adele.sing()
-        console.log(adele.__proto__ === Star.prototype);
-        console.log(adele.__proto__ === wf.__proto__);
+        console.log(adele.__proto__ === Star.prototype);  //true
+        console.log(adele.__proto__ === wf.__proto__);  //true
         // 系统会为每一个对象添加一个__proto__属性， 该属性指向的是构造函数的原型对象
         // 通过实例对象调用方法时的查找规则：
         // 1.先去对象本身查看是否存在该函数
